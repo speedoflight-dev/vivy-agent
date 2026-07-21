@@ -141,3 +141,41 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ======================================================
+# Vivy Project
+# ======================================================
+
+# Secrets
+.env.local
+.env.production
+.env.development
+
+# AI Data
+data/
+memory/
+vector_store/
+embeddings/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Docker
+docker-data/
